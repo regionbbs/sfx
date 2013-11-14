@@ -43,10 +43,13 @@
     <Compile Include="ConfigurationMap.cs" />
     <Compile Include="ConfigurationMapDefinition.cs" />
     <Compile Include="ConfigurationMapManager.cs" />
+    <Compile Include="ConfigurationSectionMapManager.cs" />
     <Compile Include="ExpressionUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SfxConfigurationSection.cs" />
     <Compile Include="SfxDummyConfigurationElement.cs" />
+    <Compile Include="SfxDummyDemoConfgurationElementCollection.cs" />
+    <Compile Include="SfxDummyDemoConfigurationElement.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

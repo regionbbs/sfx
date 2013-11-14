@@ -1,0 +1,5 @@
+C:\Users\regio_000\Desktop\Sfx\Security\bin\Debug\Stupid.Framework.Security.dll
+C:\Users\regio_000\Desktop\Sfx\Security\bin\Debug\Stupid.Framework.Security.pdb
+C:\Users\regio_000\Desktop\Sfx\Security\obj\Debug\Security.csprojResolveAssemblyReference.cache
+C:\Users\regio_000\Desktop\Sfx\Security\obj\Debug\Stupid.Framework.Security.dll
+C:\Users\regio_000\Desktop\Sfx\Security\obj\Debug\Stupid.Framework.Security.pdb

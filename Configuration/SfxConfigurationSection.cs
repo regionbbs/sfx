@@ -14,5 +14,13 @@ namespace Sfx.Framework.Configuration
         {
             get { return base["dummy"] as SfxDummyConfigurationElement; }
         }
+
+        [ConfigurationProperty("dummy2")]
+        [ConfigurationCollection(typeof(SfxDummyDemoConfgurationElementCollection), 
+            CollectionType = ConfigurationElementCollectionType.AddRemoveClearMap)]
+        public SfxDummyDemoConfgurationElementCollection Dummy2
+        {
+            get { return base["dummy2"] as SfxDummyDemoConfgurationElementCollection; }
+        }
     }
 }

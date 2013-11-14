@@ -1,0 +1,8 @@
+C:\Users\regio_000\Desktop\Sfx\ConfigurationUT\bin\Debug\Sfx.Framework.UT.ConfigurationUT.dll.config
+C:\Users\regio_000\Desktop\Sfx\ConfigurationUT\bin\Debug\Sfx.Framework.UT.ConfigurationUT.dll
+C:\Users\regio_000\Desktop\Sfx\ConfigurationUT\bin\Debug\Sfx.Framework.UT.ConfigurationUT.pdb
+C:\Users\regio_000\Desktop\Sfx\ConfigurationUT\bin\Debug\Stupid.Framework.Configuration.dll
+C:\Users\regio_000\Desktop\Sfx\ConfigurationUT\bin\Debug\Stupid.Framework.Configuration.pdb
+C:\Users\regio_000\Desktop\Sfx\ConfigurationUT\obj\Debug\ConfigurationUT.csprojResolveAssemblyReference.cache
+C:\Users\regio_000\Desktop\Sfx\ConfigurationUT\obj\Debug\Sfx.Framework.UT.ConfigurationUT.dll
+C:\Users\regio_000\Desktop\Sfx\ConfigurationUT\obj\Debug\Sfx.Framework.UT.ConfigurationUT.pdb

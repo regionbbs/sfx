@@ -1,0 +1,17 @@
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\Stupid.Framework.TestClient.WebService.dll.config
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\Stupid.Framework.TestClient.WebService.dll
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\Stupid.Framework.TestClient.WebService.pdb
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\Newtonsoft.Json.dll
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\System.Net.Http.Formatting.dll
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\System.Web.Http.dll
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\System.Web.Http.WebHost.dll
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\Newtonsoft.Json.xml
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\System.Net.Http.Formatting.xml
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\System.Web.Http.xml
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\System.Web.Http.WebHost.xml
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\regio_000\Desktop\Sfx\WebService\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\regio_000\Desktop\Sfx\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+C:\Users\regio_000\Desktop\Sfx\WebService\obj\Debug\Stupid.Framework.TestClient.WebService.dll
+C:\Users\regio_000\Desktop\Sfx\WebService\obj\Debug\Stupid.Framework.TestClient.WebService.pdb

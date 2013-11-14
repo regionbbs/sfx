@@ -1,0 +1,7 @@
+C:\Users\regio_000\Desktop\Sfx\Security.APIValidator\bin\Debug\Security.APIValidator.dll
+C:\Users\regio_000\Desktop\Sfx\Security.APIValidator\bin\Debug\Security.APIValidator.pdb
+C:\Users\regio_000\Desktop\Sfx\Security.APIValidator\bin\Debug\Stupid.Framework.Security.dll
+C:\Users\regio_000\Desktop\Sfx\Security.APIValidator\bin\Debug\Stupid.Framework.Security.pdb
+C:\Users\regio_000\Desktop\Sfx\Security.APIValidator\obj\Debug\Security.APIValidator.csprojResolveAssemblyReference.cache
+C:\Users\regio_000\Desktop\Sfx\Security.APIValidator\obj\Debug\Security.APIValidator.dll
+C:\Users\regio_000\Desktop\Sfx\Security.APIValidator\obj\Debug\Security.APIValidator.pdb
