@@ -18,16 +18,15 @@ namespace Stupid.Framework.TestClient.TestConsole
             dummyMap.Property(c => c.V1).Required().Map(c => c.V1).Default("PROG_DEFAULT");
             dummyMap.Property(c => c.V2).Required().Map(c => c.V2).Default("V2_DEFAULT");
 
-            var dummy = configSectionManager.ExtractConfigValues<Dummy, SfxDummyConfigurationElement>();
+            var dummy = configSectionManager.ExtractValues<Dummy, SfxDummyConfigurationElement>();
 
-            var dummyMap2 = configSectionManager.DefineMap<dummy2, SfxDummyDemoConfigurationElement>();
+            var dummyMap2 = configSectionManager
+                .DefineMap<dummy2, SfxDummyDemoConfigurationElement>()
+                .FromCollection<SfxDummyDemoConfgurationElementCollection>();
 
             dummyMap2.Property(c => c.Name).Required().Map(c => c.Name);
-            dummyMap2.FromCollection<SfxDummyDemoConfgurationElementCollection>();
-            dummyMap2.FromContaimer<SfxConfigurationSection>();
 
-            var dummy2 = configSectionManager.
-                ExtractConfigValuesFromCollection<dummy2, SfxDummyDemoConfigurationElement>();
+            var dummy2 = configSectionManager.ExtractValuesFromCollection<dummy2, SfxDummyDemoConfigurationElement>();
         }
     }
 }

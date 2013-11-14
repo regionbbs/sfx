@@ -36,6 +36,28 @@ namespace Sfx.Framework.Configuration
             return map;
         }
 
+        public ConfigurationMap<TConfigConsumer, TConfigProvider> DefineMap<
+            TConfigConsumer, TConfigProvider, TConfigProviderCollection>()
+            where TConfigConsumer : class
+            where TConfigProvider : ConfigurationElement
+            where TConfigProviderCollection : ConfigurationElementCollection
+        {
+            var map = new ConfigurationMap<TConfigConsumer, TConfigProvider>();
+
+            var mapQuery = this._configurationMaps.Where(c =>
+                CheckMapTypeExists<TConfigConsumer, TConfigProvider>(
+                c as ConfigurationMap<TConfigConsumer, TConfigProvider>));
+
+            if (mapQuery.Any())
+                this._configurationMaps.Remove(mapQuery.First());
+
+            map.FromCollection<TConfigProviderCollection>();
+
+            this._configurationMaps.Add(map);
+
+            return map;
+        }
+
         public bool CheckConsumerMapToProviderRegistered<TConfigConsumer, TConfigProvider>()
             where TConfigConsumer : class
             where TConfigProvider : ConfigurationElement
@@ -46,7 +68,7 @@ namespace Sfx.Framework.Configuration
             return mapQuery.Any();
         }
 
-        public TConfigConsumer ExtractConfigValues<TConfigConsumer, TConfigProvider>()
+        public TConfigConsumer ExtractValues<TConfigConsumer, TConfigProvider>()
             where TConfigConsumer : class
             where TConfigProvider : ConfigurationElement
         {
@@ -64,10 +86,10 @@ namespace Sfx.Framework.Configuration
 
             var provider = propertyQuery.First().GetValue(this._section) as TConfigProvider;
 
-            return mapDef.ExtractConfigValues(provider);
+            return mapDef.ExtractValues(provider);
         }
 
-        public IEnumerable<TConfigConsumer> ExtractConfigValuesFromCollection<TConfigConsumer, TConfigProvider>()
+        public IEnumerable<TConfigConsumer> ExtractValuesFromCollection<TConfigConsumer, TConfigProvider>()
             where TConfigConsumer : class
             where TConfigProvider : ConfigurationElement
         {
@@ -88,7 +110,7 @@ namespace Sfx.Framework.Configuration
             var cursor = collection.GetEnumerator();
 
             while (cursor.MoveNext())
-                yield return mapDef.ExtractConfigValues(cursor.Current as TConfigProvider);
+                yield return mapDef.ExtractValues(cursor.Current as TConfigProvider);
         }
 
         private TConfigConsumer ExtractConfigValues<TConfigConsumer, TConfigProvider>(TConfigProvider Provider)
@@ -102,7 +124,7 @@ namespace Sfx.Framework.Configuration
                 return null;
 
             var mapDef = mapQuery.First() as ConfigurationMap<TConfigConsumer, TConfigProvider>;
-            return mapDef.ExtractConfigValues(Provider);
+            return mapDef.ExtractValues(Provider);
         }
 
         private bool CheckMapTypeExists<TConfigConsumer, TConfigProvider>(ConfigurationMap<TConfigConsumer, TConfigProvider> map)

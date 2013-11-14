@@ -16,7 +16,6 @@ namespace Sfx.Framework.Configuration
         public Type Provider { get; private set; }
         public List<ConfigurationMapDefinition<TConfigConsumer, TConfigProvider>> Maps { get; private set; }
         public Type FromCollectionType { get; private set; }
-        public Type FromContainerType { get; private set; }
 
         public ConfigurationMap()
         {
@@ -47,7 +46,7 @@ namespace Sfx.Framework.Configuration
             return mapDefinition;
         }
 
-        public TConfigConsumer ExtractConfigValues(TConfigProvider Provider)
+        public TConfigConsumer ExtractValues(TConfigProvider Provider)
         {
             var consumer = Activator.CreateInstance<TConfigConsumer>();
 
@@ -74,14 +73,10 @@ namespace Sfx.Framework.Configuration
             return consumer;
         }
 
-        public void FromCollection<TConfigProviderCollection>()
+        public ConfigurationMap<TConfigConsumer, TConfigProvider> FromCollection<TConfigProviderCollection>()
         {
             this.FromCollectionType = typeof(TConfigProviderCollection);
-        }
-
-        public void FromContaimer<TConfigProviderContainer>()
-        {
-            this.FromContainerType = typeof(TConfigProviderContainer);
+            return this;
         }
     }
 }
