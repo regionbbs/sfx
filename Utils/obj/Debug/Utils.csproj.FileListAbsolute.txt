@@ -1,0 +1,5 @@
+C:\Users\regio_000\Desktop\Sfx\Utils\bin\Debug\Sfx.Framework.Utils.dll
+C:\Users\regio_000\Desktop\Sfx\Utils\bin\Debug\Sfx.Framework.Utils.pdb
+C:\Users\regio_000\Desktop\Sfx\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\Users\regio_000\Desktop\Sfx\Utils\obj\Debug\Sfx.Framework.Utils.dll
+C:\Users\regio_000\Desktop\Sfx\Utils\obj\Debug\Sfx.Framework.Utils.pdb

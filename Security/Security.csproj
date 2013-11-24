@@ -40,11 +40,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthenticationTokenStore.cs" />
+    <Compile Include="AuthenticationTokenStoreFactory.cs" />
+    <Compile Include="IAuthenticationContext.cs" />
+    <Compile Include="IAuthenticationProvider.cs" />
+    <Compile Include="IAuthenticationToken.cs" />
+    <Compile Include="IAuthorizationContext.cs" />
+    <Compile Include="IPrincipalContext.cs" />
+    <Compile Include="Principal.cs" />
+    <Compile Include="PrincipalContext.cs" />
     <Compile Include="IKeySecretGenerator.cs" />
     <Compile Include="IKeySecretValidator.cs" />
     <Compile Include="KeySecretManager.cs" />
+    <Compile Include="PrincipalContextFactory.cs" />
+    <Compile Include="PrincipalContextManager.cs" />
+    <Compile Include="PrincipleContextOfT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerAuthenticationToken.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

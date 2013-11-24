@@ -12,6 +12,11 @@ namespace Stupid.Framework.TestClient.TestConsole
     {
         static void Main(string[] args)
         {
+        }
+
+        /*
+        static void Main(string[] args)
+        {
             var configSectionManager = ConfigurationMapManager.FromSection("sfx");
             var dummyMap = configSectionManager.DefineMap<Dummy, SfxDummyConfigurationElement>();
 
@@ -28,5 +33,6 @@ namespace Stupid.Framework.TestClient.TestConsole
 
             var dummy2 = configSectionManager.ExtractValuesFromCollection<dummy2, SfxDummyDemoConfigurationElement>();
         }
+        */
     }
 }

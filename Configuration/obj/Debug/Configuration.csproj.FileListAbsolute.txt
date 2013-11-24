@@ -3,3 +3,5 @@ C:\Users\regio_000\Desktop\Sfx\Configuration\bin\Debug\Stupid.Framework.Configur
 C:\Users\regio_000\Desktop\Sfx\Configuration\bin\Debug\Stupid.Framework.Configuration.pdb
 C:\Users\regio_000\Desktop\Sfx\Configuration\obj\Debug\Stupid.Framework.Configuration.dll
 C:\Users\regio_000\Desktop\Sfx\Configuration\obj\Debug\Stupid.Framework.Configuration.pdb
+C:\Users\regio_000\Desktop\Sfx\Configuration\bin\Debug\Sfx.Framework.Utils.dll
+C:\Users\regio_000\Desktop\Sfx\Configuration\bin\Debug\Sfx.Framework.Utils.pdb
